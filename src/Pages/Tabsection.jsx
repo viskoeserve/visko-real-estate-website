@@ -12,7 +12,7 @@ const Tabsection = () => {
         </div>
           <div class="row">
             <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-              <img src={heroImg} class="img-fluid h-100 w-100" alt="" />
+              <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid h-100 w-100" alt="" />
             </div>
             <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
               <h1 data-aos="fade-up" className=" fw-bold fs-2 mb-4">
@@ -32,18 +32,19 @@ const Tabsection = () => {
 
               </p>
               <div className=" d-flex justify-content-center  ">
-                <button type="button" class="btn  btn-lg fs-5 " style={{backgroundColor:"#115E59" ,color:"white"}}>
-                  <a href="" className=" text-light fw-semibold fs-5">  Download from Appstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+                <button type="button" class="btn  btn-lg  " style={{backgroundColor:"red" ,color:"white"}}>
+                  <a href="" className=" text-light fw-semibold fs-6">  Download Appstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
               
                 </button>
-                <button type="button" class="btn  btn-lg " style={{marginLeft:"5px",backgroundColor:"#115E59",color:"white"}}>
-                <a href="" className=" text-light fw-semibold fs-5">  Download from Playstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+                <button type="button" class="btn  btn-lg " style={{marginLeft:"5px",backgroundColor:"red",color:"white"}}>
+                <a href="" className=" text-light fw-semibold fs-6">  Download Playstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
                 </button>
               </div>
             </div>
           </div>
         </div>
       </section>
+
        <section id="tabs" className="tabs">
       <div className="container" data-aos="fade-up">
 
@@ -103,6 +104,7 @@ const Tabsection = () => {
 
       </div>
     </section>
+
     </div>
   )
 }
