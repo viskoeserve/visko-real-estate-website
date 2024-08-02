@@ -6,7 +6,7 @@ const Our = () => {
     <div>
          <div id='about'>
         <div className="about-image">
-            <img src="https://media.istockphoto.com/id/1384098518/photo/real-estate-professionals-offer-their-clients-contracts-to-discuss-home-purchases-insurance.jpg?s=612x612&w=0&k=20&c=zqUE2VL0SvnUM8iIKVXBes-mBjcjr35IY6AAwGbAp9g=" alt="" />
+            <img src="https://media.istockphoto.com/id/1384098518/photo/real-estate-professionals-offer-their-clients-contracts-to-discuss-home-purchases-insurance.jpg?s=612x612&w=0&k=20&c=zqUE2VL0SvnUM8iIKVXBes-mBjcjr35IY6AAwGbAp9g=" alt="" className=' img-fluid w-100 h-100' />
         </div>
         <div className="about-text">
             <h2>OUR LONG-TERM PLANS IN TERMS OF EMPLOYMENT</h2>

@@ -21,7 +21,7 @@ const Navbar = () => {
           <img src={logo} alt="Logo" className="img-fluid w-100 h-100" />
         </h1> */}
 
-        <a href="index.html" className="logo me-auto">
+        <a href="#hero" className="logo me-auto">
           <img src={logo} alt="Logo" />
         </a>
 

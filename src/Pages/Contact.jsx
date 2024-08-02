@@ -65,20 +65,20 @@ const Contact = () => {
               <div className="row">
                 <div className="col form-group">
                   <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" {...register("name")} required/>
-                  {errors.exampleRequired && <span>This field is required</span>}
+                  {errors.name && <span>This field is required</span>}
                 </div>
                 <div className="col form-group">
                   <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" {...register("email", { required: true })} required/>
-                  {errors.exampleRequired && <span>This field is required</span>}
+                  {errors.email && <span>This field is required</span>}
                 </div>
               </div>
               <div className="form-group">
                 <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject"  {...register("subject", { required: true })} required/>
-                {errors.exampleRequired && <span>This field is required</span>}
+                {errors.subject && <span>This field is required</span>}
               </div>
               <div className="form-group">
                 <textarea className="form-control" name="message" rows="5" placeholder="Message"  {...register("message", { required: true })} required></textarea>
-                {errors.exampleRequired && <span>This field is required</span>}
+                {errors.message && <span>This field is required</span>}
               </div>
               <div className="my-3">
                 <div className="loading">Loading</div>
