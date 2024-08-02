@@ -9,13 +9,15 @@ const AboutUs = () => {
   <div className="row align-items-xl-center gy-5">
 
     <div className="col-xl-5 content">
-      
-      <h1>About US</h1>
+    <div className="section-title">
+          <h2 className=' fw-bold fs-1 text-dark mb-0'>About US</h2>
+        
+        </div>
       <p>
 AT VISKO REAL ESTATE PRIVATE LIMITED, we believe that the best investment on earth is earth. Real estate investment can bring predictable cash flow, tax advantages and portfolio diversification. It’s long been a reliable source of passive income, and real estate investing apps mean the market is more accessible than ever. We have introduced a new concept of ownership in the real estate sector, known as ‘fractional’ investing. Fractional investing allows a user to invest small amounts of money in real estate projects. In simple words, a property is divided into ‘fractions’ and is sold between multiple owners. Fractional investment in real estate has gained popularity as a modern and inclusive approach to property ownership. It provides investors with flexibility, diversification, and access to a wider range of investment opportunities in the real estate market.
 </p>
 
-<a href="#about" className="btn-get-started scrollto" classNameName='btn btn-danger'>Read More <i className="bi bi-arrow-right"></i></a>
+
     </div>
 
     <div className="col-xl-7">

@@ -4,7 +4,7 @@ import OurPage from '../assets/Images/ourPage.jpg'
 const Our = () => {
   return (
     <div>
-         <div id='about'>
+         {/* <div id='about'>
         <div className="about-image">
             <img src="https://media.istockphoto.com/id/1384098518/photo/real-estate-professionals-offer-their-clients-contracts-to-discuss-home-purchases-insurance.jpg?s=612x612&w=0&k=20&c=zqUE2VL0SvnUM8iIKVXBes-mBjcjr35IY6AAwGbAp9g=" alt="" />
         </div>
@@ -16,7 +16,7 @@ const Our = () => {
             <button className='btn btn-danger'>Read More</button>
         </div>
       
-    </div>
+    </div> */}
     </div>
   )
 }

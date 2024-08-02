@@ -1,8 +1,49 @@
 import React from 'react'
+import heroImg from "../assets/Images/FractioHero.jpg"
 
 const Tabsection = () => {
   return (
     <div>
+         <section id="about" class="about">
+        <div class="container">
+        <div className="section-title">
+          <h2>Our Product</h2>
+          
+        </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+              <img src={heroImg} class="img-fluid h-100 w-100" alt="" />
+            </div>
+            <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+              <h1 data-aos="fade-up" className=" fw-bold fs-2 mb-4">
+              Fraction Realty
+
+              </h1>
+              <p data-aos="fade-up" className=" fs-6">
+              Visko Real Estate Pvt Ltd is investing in land effortlessly with its state-of-the-art apps and websites like Fraction Realty. Fraction is here to bring ample cash flow via real estate investment. The platform lets its investors invest in properties by buying tokens using their digital gadgets like mobile devices, laptops, and tablets. 
+
+              </p>
+              <p data-aos="fade-up" className=" fs-6">
+              As the word suggests, fractional investing allows users to invest small amounts of money in real estate projects. This means multiple owners can own a single property through fractional ownership. That's why Fraction Realty provides its investors with a modern and inclusive approach to property ownership.
+
+              </p>
+              <p data-aos="fade-up" className=" fs-6">
+              Through the Fraction Realty platform, Visko E-Serve Pvt Ltd aims to provide solutions related to property investment like Technical Integration and Professional Management, Creation of Investment Opportunities, Lower Entry Costs, Diversification, Access to Premium Properties, Easy Liquidity and Exit Options, and Income Distribution through the use of top-notch technology and agile approaches.
+
+              </p>
+              <div className=" d-flex justify-content-center  ">
+                <button type="button" class="btn  btn-lg fs-5 " style={{backgroundColor:"#115E59" ,color:"white"}}>
+                  <a href="" className=" text-light fw-semibold fs-5">  Download from Appstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+              
+                </button>
+                <button type="button" class="btn  btn-lg " style={{marginLeft:"5px",backgroundColor:"#115E59",color:"white"}}>
+                <a href="" className=" text-light fw-semibold fs-5">  Download from Playstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
        <section id="tabs" className="tabs">
       <div className="container" data-aos="fade-up">
 

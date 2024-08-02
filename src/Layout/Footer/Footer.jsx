@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from "../../assets/Images/Visko_logo.png"
 const Footer = () => {
   return (
   <>
@@ -11,23 +11,28 @@ const Footer = () => {
     <div className="row">
 
       <div className="col-lg-4 col-md-6 footer-contact">
-        <h3>Visko Real State Private Limated</h3>
-        <p>
+      <div className='logo-container'>
+  <img src={logo} alt="Visko Real State Logo" style={{ width: "70px", height: "70px" }} />
+  <h5>Visko Real State Private Limited</h5>
+  <p>
         <br/>
         <br/>
           <strong>Phone:</strong> +91 9238154587<br/>
           <strong>Email:</strong> info@Visko.group<br/>
         </p>
+</div>
+        
+        
       </div>
 
       <div className="col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
-          <li><i className="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-          <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          <li><i className="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+          <li><i className="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+          <li><i className="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+      
+          <li><i className="bx bx-chevron-right"></i> <a href="#contact">Privacy policy</a></li>
           <Link to={"/document"} className="get-started-btn scrollto" style={{marginLeft:"0px",color:"white"}}>Documents</Link>
         </ul>
       </div>
