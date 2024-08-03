@@ -21,8 +21,8 @@ const Home = () => {
       <h1><span style={{fontSize:"4rem",fontStyle:"poppins"}}>V</span>isko Real Estate Private Limted</h1>
       <h2>Visko Real Estate Pvt Ltd is a cutting-edge technology company renowned for developing innovative real estate applications to make property investment easy for everyone. </h2>
      
-      <a href="" className="btn-get-started scrollto">App Store</a>
-      <a href="" className="btn-get-started scrollto" style={{marginLeft:"20px",background:"white",border:"white",color:"black"}}>Play Store</a>
+      <a href="#" className="btn-get-started scrollto fw-bolder">Comming Soon App Store</a>
+      <a href="#" className="btn-get-started scrollto fw-bolder" style={{marginLeft:"20px",background:"white",border:"white",color:"black"}}>Coming Soon Play Store</a>
     </div>
   </div>
 </div>

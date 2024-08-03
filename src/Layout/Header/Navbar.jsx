@@ -38,7 +38,7 @@ const Navbar = () => {
           ></i>
         </nav>
 
-        <Link to="" className="get-started-btn scrollto">Get Start</Link>
+        <Link to="https://www.fractionrealty.in/" className="get-started-btn scrollto" target='_blank'>Get Started</Link>
       </div>
     </header>
 
