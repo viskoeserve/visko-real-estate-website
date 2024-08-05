@@ -26,7 +26,6 @@ const Contact = () => {
         contactData
       )
       .then((response) => {
-        console.log("Data:", response.data.message);
         Swal.fire({
           position: "center",
           icon: "success",
