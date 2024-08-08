@@ -4,7 +4,7 @@ import heroImg from "../assets/Images/FractioHero.jpg";
 const Tabsection = () => {
   return (
     <div>
-      <section id="about" class="about">
+      <section id="ourProduct" class="about">
         <div class="container">
           <div className="section-title">
             <h2>Our Product</h2>
@@ -47,8 +47,8 @@ const Tabsection = () => {
                 and agile approaches.
               </p>
               <div className=" d-flex justify-content-center  ">
-                <button type="button" class="btn  btn-lg  " style={{backgroundColor:"red" ,color:"white"}}>
-                  <a href="#" className=" text-light fw-semibold fs-6">Appstore (Comming soon) <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+                <button className=" border-0 disabled " type="button" class="btn  btn-lg  " style={{backgroundColor:"red" ,color:"white"}}>
+                  <a href="#ourProduct" className=" text-light fw-semibold fs-6">Appstore (Comming soon) <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
               
                 </button>
                 <button type="button" class="btn  btn-lg " style={{marginLeft:"5px",backgroundColor:"red",color:"white"}}>
