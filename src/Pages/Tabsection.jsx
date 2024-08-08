@@ -46,15 +46,19 @@ const Tabsection = () => {
                 and Income Distribution through the use of top-notch technology
                 and agile approaches.
               </p>
-              {/* <div className=" d-flex justify-content-center  ">
+              <div className=" d-flex justify-content-center  ">
                 <button type="button" class="btn  btn-lg  " style={{backgroundColor:"red" ,color:"white"}}>
-                  <a href="" className=" text-light fw-semibold fs-6">  Download Appstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+                  <a href="#" className=" text-light fw-semibold fs-6">Appstore (Comming soon) <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
               
                 </button>
                 <button type="button" class="btn  btn-lg " style={{marginLeft:"5px",backgroundColor:"red",color:"white"}}>
-                <a href="" className=" text-light fw-semibold fs-6">  Download Playstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+                <a href="https://play.google.com/store/apps/details?id=com.fraction.visko.real.estate" className=" text-light fw-semibold fs-6" target="_blank">Get it on Playstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
                 </button>
-              </div> */}
+              </div>
+
+              
+
+
             </div>
           </div>
         </div>
