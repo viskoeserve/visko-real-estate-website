@@ -493,7 +493,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -638,7 +638,7 @@ section {
 
 .about .icon-box h3 {
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -719,11 +719,11 @@ section {
 }
 
 .about-text p {
-  font-family: 'Poppins';
+  /* font-family: 'Poppins'; */
   width: 100%;
-  font-size: 1rem;
-  color: darkgray;
-  font-weight: bold;
+  /* font-size: 1rem; */
+  color: #444444;
+  /* font-weight: bold; */
   margin: 0 auto;
 }
 
@@ -888,7 +888,7 @@ section {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .services .icon-box h4 a {
@@ -907,7 +907,7 @@ section {
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 /*--------------------------------------------------------------

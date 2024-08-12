@@ -21,7 +21,7 @@ const Tabsection = () => {
               <h1 data-aos="fade-up" className=" fw-bold fs-2 mb-4">
                 Fraction Realty
               </h1>
-              <p data-aos="fade-up" className=" fs-6 fw-bolder">
+              <p data-aos="fade-up">
                 Visko Real Estate Pvt Ltd is investing in land effortlessly with
                 its state-of-the-art apps and websites like Fraction Realty.
                 Fraction is here to bring ample cash flow via real estate
@@ -29,7 +29,7 @@ const Tabsection = () => {
                 by buying tokens using their digital gadgets like mobile
                 devices, laptops, and tablets.
               </p>
-              <p data-aos="fade-up" className=" fs-6 fw-bolder">
+              <p data-aos="fade-up">
                 As the word suggests, fractional investing allows users to
                 invest small amounts of money in real estate projects. This
                 means multiple owners can own a single property through
@@ -37,7 +37,7 @@ const Tabsection = () => {
                 investors with a modern and inclusive approach to property
                 ownership.
               </p>
-              <p data-aos="fade-up" className=" fs-6 fw-bolder">
+              <p data-aos="fade-up">
                 Through the Fraction Realty platform, Visko E-Serve Pvt Ltd aims
                 to provide solutions related to property investment like
                 Technical Integration and Professional Management, Creation of
@@ -47,18 +47,39 @@ const Tabsection = () => {
                 and agile approaches.
               </p>
               <div className=" d-flex justify-content-center  ">
-                <button className=" border-0 disabled " type="button" class="btn  btn-lg  " style={{backgroundColor:"red" ,color:"white"}}>
-                  <a href="#ourProduct" className=" text-light fw-semibold fs-6">Appstore (Comming soon) <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
-              
+                <button
+                  className=" border-0 disabled "
+                  type="button"
+                  class="btn  btn-lg  "
+                  style={{ backgroundColor: "red", color: "white" }}
+                >
+                  <a
+                    href="#ourProduct"
+                    className=" text-light fw-semibold fs-6"
+                  >
+                    Appstore (Comming soon){" "}
+                    <i class="fa fa-arrow-right" style={{ color: "white" }}></i>
+                  </a>
                 </button>
-                <button type="button" class="btn  btn-lg " style={{marginLeft:"5px",backgroundColor:"red",color:"white"}}>
-                <a href="https://play.google.com/store/apps/details?id=com.fraction.visko.real.estate" className=" text-light fw-semibold fs-6" target="_blank">Get it on Playstore <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>
+                <button
+                  type="button"
+                  class="btn  btn-lg "
+                  style={{
+                    marginLeft: "5px",
+                    backgroundColor: "red",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.fraction.visko.real.estate"
+                    className=" text-light fw-semibold fs-6"
+                    target="_blank"
+                  >
+                    Get it on Playstore{" "}
+                    <i class="fa fa-arrow-right" style={{ color: "white" }}></i>
+                  </a>
                 </button>
               </div>
-
-              
-
-
             </div>
           </div>
         </div>
