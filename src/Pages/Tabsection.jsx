@@ -54,14 +54,14 @@ const Tabsection = () => {
                   style={{ backgroundColor: "red", color: "white" }}
                 >
                   <a
-                    href="#ourProduct"
+                    href="https://play.google.com/store/apps/details?id=com.visko.fraction_realty"
                     className=" text-light fw-semibold fs-6"
                   >
-                    Appstore (Comming soon){" "}
-                    <i class="fa fa-arrow-right" style={{ color: "white" }}></i>
+                  Get it on Playstore
+                    <i class="fa fa-arrow-right ml-2" style={{ color: "white" }}></i>
                   </a>
                 </button>
-                <button
+                {/* <button
                   type="button"
                   class="btn  btn-lg "
                   style={{
@@ -78,7 +78,7 @@ const Tabsection = () => {
                     Get it on Playstore{" "}
                     <i class="fa fa-arrow-right" style={{ color: "white" }}></i>
                   </a>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
