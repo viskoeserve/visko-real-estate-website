@@ -18,7 +18,7 @@ const Home = () => {
   <div className="row">
     <div className="col-xl-7" >
       <h1 className="fadeInRight"></h1>
-      <h1><span style={{fontSize:"4rem",fontStyle:"poppins"}}>V</span>isko Real Estate Private Limted</h1>
+      <h1><span style={{fontSize:"4rem",fontStyle:"poppins"}}>V</span>isko Real Estate Private Limited</h1>
       <h2>Visko Real Estate Pvt Ltd is a cutting-edge technology company renowned for developing innovative real estate applications to make property investment easy for everyone. </h2>
      
       <a href="https://play.google.com/store/apps/details?id=com.visko.fraction_realty" className="btn-get-started scrollto fw-bolder"> Get it on Play Store <i class="fa fa-arrow-right" style={{color:"white"}}></i></a>

@@ -18,7 +18,7 @@ const Contact = () => {
       li_name: data.name,
       li_email: data.email,
       li_message: data.message,
-      li_company: "Visko Real Estate Private Limted",
+      li_company: "Visko Real Estate Private Limited",
     };
     axios
       .post(
