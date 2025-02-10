@@ -1,14 +1,4 @@
-/**
-* Template Name: Presento
-* Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 *{
   margin: 0;
 }
@@ -41,9 +31,7 @@ h5 {
   margin:10px 0 0;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -74,19 +62,14 @@ h5 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-/* Header */
+
 #header {
   background: #fff;
   transition: all 0.5s;
@@ -112,7 +95,6 @@ h5 {
   max-height: 60px;
 }
 
-/* Get Started Button */
 .get-started-btn {
   margin-left: 30px;
   background: #e03a3c;
@@ -138,7 +120,7 @@ h5 {
   }
 }
 
-/* Navigation Menu */
+
 .navbar {
   padding: 0;
 }
@@ -353,9 +335,7 @@ h5 {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
 #hero   {
   
   width: 100%;
@@ -478,9 +458,6 @@ h5 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -551,9 +528,6 @@ section {
   transform: skewY(-3deg);
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .about {
   --background-color: #f4f4f4;
   animation: fadeIn 3s;
@@ -722,11 +696,8 @@ section {
 }
 
 .about-text p {
-  /* font-family: 'Poppins'; */
   width: 100%;
-  /* font-size: 1rem; */
   color: #444444;
-  /* font-weight: bold; */
   margin: 0 auto;
 }
 
@@ -772,14 +743,7 @@ section {
     width: 45%;
   }
 }
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
 
-
-/*--------------------------------------------------------------
-# Tabs
---------------------------------------------------------------*/
 .tabs .nav-tabs {
   border: 0;
 }
@@ -864,9 +828,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
@@ -913,9 +875,7 @@ section {
   /* font-size: 14px; */
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1036,9 +996,7 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1102,11 +1060,6 @@ section {
 }
 
 
-
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1233,10 +1186,6 @@ section {
 
 
 
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
   color: #fff;
   font-size: 14px;
@@ -1300,7 +1249,7 @@ section {
 
 
 
-/* Styles for tablets and up (portrait and landscape)
+
 @media (min-width: 420px) {
   #footer .footer-top {
     padding: 60px 30px;
@@ -1322,30 +1271,9 @@ section {
   }
 }
 
-/* Styles for desktops and larger screens */
-/* @media (min-width: 992px) {
-  #footer .footer-top {
-    padding: 60px 0 30px 0;
-  }
-
-  #footer .footer-top .footer-links {
-    margin-left: 50%;
-  }
 
 
-  #footer .footer-top .footer-contact h5 {
-    font-size: 20px;
-  }
 
-  #footer .social-links a {
-    width: 36px;
-    height: 36px;
-  }
-} */ */
-
-/* Downlload button */
-
-/* Downlload button */
 
 .flex {
   display: flex;
