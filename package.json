@@ -7,16 +7,23 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.3",
+<<<<<<< HEAD
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.8",
+=======
+    "react": "^18.2.0",
+>>>>>>> efecae7bcaafd274015ed9527d26346811f9a74e
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.52.1",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.12.4",
+=======
+>>>>>>> efecae7bcaafd274015ed9527d26346811f9a74e
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import AboutUs from "../Pages/AboutUs";
 import Services from "../Pages/Services";
@@ -6,6 +7,7 @@ import Tabsection from "../Pages/Tabsection";
 import Contact from "../Pages/Contact";
 import Footer from "../Layout/Footer/Footer";
 import Navbar from "../Layout/Header/Navbar";
+
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -133,8 +135,8 @@ const Home = () => {
       <Our />
       <Tabsection />
       <Contact />
-      
-      <Footer />
+
+       <Footer />
     </>
   );
 };
