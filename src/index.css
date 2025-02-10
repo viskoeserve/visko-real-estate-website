@@ -1288,7 +1288,8 @@ section {
   font-size: 16px;
   padding: 6px;
   margin-right: 4px;
-  
+
+ 
 }
 
 #footer .social-links a:hover {
@@ -1331,6 +1332,7 @@ section {
     margin-left: 50%;
   }
 
+
   #footer .footer-top .footer-contact h5 {
     font-size: 20px;
   }
@@ -1341,6 +1343,7 @@ section {
   }
 } */ */
 
+/* Downlload button */
 
 /* Downlload button */
 
@@ -1381,4 +1384,6 @@ section {
    }
   }
  }
+
  
+

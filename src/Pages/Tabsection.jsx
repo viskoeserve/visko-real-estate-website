@@ -57,11 +57,13 @@ const Tabsection = () => {
                     href="https://play.google.com/store/apps/details?id=com.visko.fraction_realty"
                     className=" text-light fw-semibold fs-6"
                   >
+
                     Get it on Playstore
                     <i
                       class="fa fa-arrow-right ml-2"
                       style={{ color: "white" }}
                     ></i>
+
                   </a>
                 </button>
                 {/* <button

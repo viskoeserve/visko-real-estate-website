@@ -1,3 +1,4 @@
+
 // import React from "react";
 // import { useForm } from "react-hook-form";
 // import axios from "axios";
@@ -156,6 +157,7 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 import Swal from "sweetalert2";
 
+
 const Contact = () => {
   const {
     register,
@@ -184,8 +186,10 @@ const Contact = () => {
           icon: "success",
           title: `${response.data.message}`,
           showConfirmButton: false,
+
           timer: 1500,
         });
+
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -203,17 +207,21 @@ const Contact = () => {
           </div>
 
           <div className="row" data-aos="fade-up" data-aos-delay="100">
+
             <div className="col-lg-4">
               <div className="">
                 <div className="col-md-12 pb-2  ">
                   <div className="info-box my-1 ">
+
                     <i className="bi bi-envelope p-2"></i>
                     <h3>Email Us</h3>
                     <p>info@viskorealestate.com</p>
                   </div>
                 </div>
+
                 <div className="col-md-12 pb-2   ">
                   <div className="info-box my-1">
+
                     <i className="bi bi-telephone p-2"></i>
                     <h3>Call Us</h3>
                     <p>+91 9238154587</p>
@@ -223,6 +231,7 @@ const Contact = () => {
             </div>
 
             <div className="col-lg-8">
+
               <form
                 action=""
                 role="form"

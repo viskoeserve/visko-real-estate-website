@@ -74,6 +74,7 @@ const Navbar = () => {
             ></i>
           </nav>
 
+
           <a
             href="https://www.fractionrealty.in/"
             className="get-started-btn scrollto underline-none"

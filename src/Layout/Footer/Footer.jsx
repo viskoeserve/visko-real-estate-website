@@ -87,6 +87,7 @@ const Footer = () => {
               target="_blank"
             >
               <i className="bi bi-linkedin fs-4 "></i>
+
             </a>
           </div>
         </div>
