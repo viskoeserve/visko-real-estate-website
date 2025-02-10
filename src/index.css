@@ -31,9 +31,14 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-family: "Raleway", sans-serif;
+
+}
+#mycarousel{
+  filter: brightness(80%);
+  font-size: 24px;
+  margin:10px 0 0;
 }
 
 /*--------------------------------------------------------------
@@ -86,7 +91,7 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
   width: 100%;
 }
 
@@ -99,12 +104,12 @@ h6 {
   font-size: 30px;
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 60px;
   font-family: "Poppins", sans-serif;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /* Get Started Button */
@@ -354,8 +359,7 @@ h6 {
 #hero   {
   
   width: 100%;
-  height: 100vh;
-  background: url("./assets/Images/fraction2.jpg") top center no-repeat;
+  
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -387,7 +391,6 @@ h6 {
 #hero h1 {
   margin: 0;
   font-family: poppins;
-  font-size: 46px;
   font-weight: 600;
   color: #fff;
  filter: brightness(90%);
@@ -1285,25 +1288,32 @@ section {
   font-size: 16px;
   padding: 6px;
   margin-right: 4px;
+
+ 
 }
 
 #footer .social-links a:hover {
   background: #e03a3c;
+  
   color: #fff;
 }
 
-/* Styles for tablets and up (portrait and landscape) */
-@media (min-width: 768px) {
+
+
+/* Styles for tablets and up (portrait and landscape)
+@media (min-width: 420px) {
   #footer .footer-top {
     padding: 60px 30px;
   }
 
   #footer .footer-top .footer-contact h5 {
     font-size: 18px;
+    display: flex;
   }
 
   #footer .footer-top .footer-links {
     margin-left: 0;
+    display: flex;
   }
 
   #footer .social-links a {
@@ -1313,7 +1323,7 @@ section {
 }
 
 /* Styles for desktops and larger screens */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #footer .footer-top {
     padding: 60px 0 30px 0;
   }
@@ -1321,6 +1331,7 @@ section {
   #footer .footer-top .footer-links {
     margin-left: 50%;
   }
+
 
   #footer .footer-top .footer-contact h5 {
     font-size: 20px;
@@ -1330,8 +1341,9 @@ section {
     width: 36px;
     height: 36px;
   }
-}
+} */ */
 
+/* Downlload button */
 
 /* Downlload button */
 
@@ -1372,4 +1384,6 @@ section {
    }
   }
  }
+
  
+
